@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-workmailmessageflow`](https://www.npmjs.com/package/@aws-sdk/client-workmailmessageflow/v/3.40.0).
+[`@aws-sdk/client-workmailmessageflow`](https://www.npmjs.com/package/@aws-sdk/client-workmailmessageflow/v/3.41.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.40.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.41.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-xztPrtqAOkR9z4keOlgUiutJdVlrw5unln0MPOJ4vTTVQs6ihkfvEiQQJIuwcLWy
+sha384-8UN0Y6XXoZGfYV1DV8BqZd7H6T4+bH9dch16UoIbpcV7LU8oHT/8Dh4MJPuGSCiu
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-workmailmessageflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.40.0/index.min.mjs"
+            "@aws-sdk/client-workmailmessageflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.41.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.40.0/index.min.mjs": "sha384-xztPrtqAOkR9z4keOlgUiutJdVlrw5unln0MPOJ4vTTVQs6ihkfvEiQQJIuwcLWy"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.41.0/index.min.mjs": "sha384-8UN0Y6XXoZGfYV1DV8BqZd7H6T4+bH9dch16UoIbpcV7LU8oHT/8Dh4MJPuGSCiu"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-workmailmessageflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.40.0/index.min.mjs"
+                        "@aws-sdk/client-workmailmessageflow": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.41.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.40.0/index.min.mjs": "sha384-xztPrtqAOkR9z4keOlgUiutJdVlrw5unln0MPOJ4vTTVQs6ihkfvEiQQJIuwcLWy"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmailmessageflow@3.41.0/index.min.mjs": "sha384-8UN0Y6XXoZGfYV1DV8BqZd7H6T4+bH9dch16UoIbpcV7LU8oHT/8Dh4MJPuGSCiu"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.40.0`)
+* Always pin to a specific version (`@3.41.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-workmailmessageflow/blob/refs/tags/3.40.0/LICENSE
+https://github.com/cloud-sdk-builds/client-workmailmessageflow/blob/refs/tags/3.41.0/LICENSE
 ```
 
 ---
